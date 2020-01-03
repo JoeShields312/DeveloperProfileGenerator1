@@ -23,7 +23,7 @@ const questions = [
     type: "list",
     name: "color",
     message: "What is your favorite color?",
-    choices: ["red", "blue", "green", "pink"]
+    choices: ["green", "blue", "pink", "red"]
   }
 ];
 
@@ -57,12 +57,12 @@ function init() {
           }
 
           result.stream.pipe(
-            fs.createWriteStream(path.join(__dirname, "resume.pdf"))
+            fs.createWriteStream(path.join(__dirname, `resume_${color}.pdf`))
           );
           conversion.kill();
         });
 
-        open(path.join(process.cwd(), "resume.pdf"));
+        open(path.join(process.cwd(), `resume_${color}.pdf`));
       });
   });
 }
