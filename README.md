@@ -2,7 +2,7 @@ DeveloperProfileGenerator
 
 *to view a video of my Github project click here*
 
-![j](https://drive.google.com/file/d/1SFnF7BYkTC82WCTsuj0qCMk7_RWrQZTU/view)
+[Joe Shields Github](https://drive.google.com/file/d/1SFnF7BYkTC82WCTsuj0qCMk7_RWrQZTU/view)
 
 *User Story
 
