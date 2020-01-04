@@ -8,6 +8,15 @@ This node program pulls all of the users Github profile information and generate
 
 *The pdf generated includes users location, the users Github page, users blog, pulic repositories, followers, following, and Github Stars.*
 
+NPM packages used:
+electron
+axios
+env
+fs
+inquirer
+path 
+open
+convertFactory
 
 
 
