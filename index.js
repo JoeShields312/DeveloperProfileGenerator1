@@ -12,7 +12,7 @@ const generateHTML = require("./html");
 
 const convertFactory = require("electron-html-to");
 
-const questions = [
+const login = [
   {
     type: "input",
     name: "github",
@@ -32,7 +32,7 @@ function writeToFile(fileName, data) {
 }
 
 function init() {
-  inquirer.prompt(questions).then(({ github, color }) => {
+  inquirer.prompt(login).then(({ github, color }) => {
     console.log("Searching...");
 
     api
