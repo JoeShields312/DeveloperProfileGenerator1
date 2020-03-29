@@ -24,7 +24,7 @@ const colors = {
       photoBorderColor: "white"
     }
   };
-  
+  //function that allows the pdf to be returned as HTML 
   function generateHTML(data) {
     return `<!DOCTYPE html>
   <html lang="en">
